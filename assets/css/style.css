@@ -72,9 +72,9 @@
     height: 20px;
 }
 
-.ex-13-top-white {
+/* .ex-13-top-white {
     animation: a-sinistra-gira 3s linear infinite
-}
+} */
 
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
@@ -85,9 +85,9 @@
     height: 20px;
 }
 
-.ex-13-bottom-white {
+/* .ex-13-bottom-white {
     animation: a-destra-gira 3s linear infinite;
-}
+} */
 
 .ex-1-square:hover {
     background-color: red;
@@ -158,6 +158,14 @@ border-radius: 10%;
 
 .ex-12-button:hover .ex-12-bottom-white {
     animation: a-sinistra 2s ease infinite;
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: a-destra-gira 2s linear ;
+}
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: a-sinistra-gira 2s linear;
 }
 
 @keyframes a-destra {
